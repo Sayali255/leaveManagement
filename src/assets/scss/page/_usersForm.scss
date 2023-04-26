@@ -27,13 +27,15 @@
 
     .u-control {
      color: #333;
-     height: 3.5rem;
+     height: 3rem;
      line-height: 1.2;
-     letter-spacing: 2px;
      border : 0;
      &:focus,
      &:active{
       box-shadow: none;
+     }
+     &placeholder{
+      letter-spacing: 2px;
      }
     }
 
